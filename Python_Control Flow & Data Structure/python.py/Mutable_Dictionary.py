@@ -1,0 +1,13 @@
+x={
+    101:'Shakil',
+    102:'22'
+}
+first_location=id(x)
+print(x)
+print(type(x))
+print(first_location)
+x[101]='Nabil'
+second_location=id(x)
+print(x)
+print(type(x))
+print(second_location)

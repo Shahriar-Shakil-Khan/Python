@@ -1,0 +1,10 @@
+x=[1,2,3]
+first_location=id(x)
+print(x)
+print(type(x))
+print(first_location)
+x[0]=4
+second_location=id(x)
+print(x)
+print(type(x))
+print(second_location)
