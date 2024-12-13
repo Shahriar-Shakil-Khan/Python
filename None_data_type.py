@@ -1,2 +1,0 @@
-doller=None
-print(doller)
